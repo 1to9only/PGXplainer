@@ -157,6 +157,9 @@ public class serate {
                             case 'g':
                                 s += puzzle;
                                 break;
+                            case 'f':
+                                s += puzzle.substring( 0, 81);
+                                break;
                             case 'r':
                                 w = (int)((solver.difficulty + 0.05) * 10); p = w % 10; w /= 10;
                                 s += w + "." + p;
